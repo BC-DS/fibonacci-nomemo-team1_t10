@@ -1,3 +1,6 @@
+/* The Fibonacci sequence is a classic sequence in CS
+   This implementaton does not use memoization. */
+
 #include <iostream>
 using namespace std;
 
