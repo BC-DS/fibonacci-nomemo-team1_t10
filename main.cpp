@@ -35,12 +35,13 @@ int fib(int x){
 int main(){
 
 	char stop;
-	int n;
+	int n, ans;
 
-	cout << "Enter a small positive integer: ";
+	cout << "\nEnter a small positive integer: ";
 	cin >> n;
 	cout << "Here are the function calls: ";
-	cout << "\nFibonacci of " << n << " is " << fib(n) << "." << endl;
+	ans = fib(n);
+	cout << "\nFibonacci of " << n << " is " << ans << "." << endl;
 
 	cin >> stop; //to keep window open in certain cases
 
